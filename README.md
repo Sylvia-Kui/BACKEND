@@ -70,14 +70,20 @@ backend/
 
 🧪 INSTALLATION AND SETUP
 - Clone the repository
+ 
 git clone https://github.com/Sylvia-Kui/BACKEND.git
 cd BACKEND/ml-service
 - Create a virtual environment
-python -m venv venv
+
+  python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 - Install dependencies
+  
 pip install -r requirements.txt
+
 - Run the FastAPI server
+  
 uvicorn app.main:app --reload --port 8000
 
 🔗 Node,js INTEGRATION (by Cynthia Mueni)
